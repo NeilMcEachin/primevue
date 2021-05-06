@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "prepare": "npm build-lib",
     "serve": "vue-cli-service serve",
     "build-app": "vue-cli-service build",
     "build-lib": "node build-lib && gulp build-resources",
